@@ -2,7 +2,7 @@
 // Daniel Shiffman
 // http://www.learningprocessing.com
 
-// Example 20-4: Manipulating sound (with Sonia)
+// Example 20-4: Manipulating sound
 
 import processing.sound.*;
 
@@ -28,8 +28,8 @@ void draw() {
   song.amp(volume);
 
   // Set the rate to a range between 0.1 and 4
-  // Changing the rate alters the pitchf
-  float speed = map(mouseY, 0, height, 0, 2)
+  // Changing the rate alters the pitch
+  float speed = map(mouseY, 0, height, 0, 2);
   song.rate(speed);
 
   // Draw some circles to show what is going on
