@@ -2,7 +2,7 @@
 // Daniel Shiffman
 // http://www.learningprocessing.com
 
-// Example 20-4: Noise
+// Example 20-6: Noise
 
 import processing.sound.*;
 
