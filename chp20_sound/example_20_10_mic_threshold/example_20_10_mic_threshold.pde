@@ -35,7 +35,7 @@ void draw() {
   if (volume > threshold) {
     stroke(0);
     fill(0, 100);
-    rect(random(40, width), random(height), 20, 20);
+    rect(random(40, width), random(height), volume*50, volume*50);
   }
 
   // Graph the overall volume and show threshold
