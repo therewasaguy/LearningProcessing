@@ -22,7 +22,6 @@ void setup() {
 
 void draw() {
   background(255);
-  PVector v = new PVector();
     
   if (frameCount % 60 == 0) {
     osc.play(translateMIDI(scale[note]), 1);
