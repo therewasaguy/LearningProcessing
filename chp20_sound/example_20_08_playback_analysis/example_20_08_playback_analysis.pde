@@ -2,7 +2,7 @@
 // Daniel Shiffman
 // http://www.learningprocessing.com
 
-// Example 20-1: Simple Sound Playback
+// Example 20-8: Playback Amplitude Analysis
 
 import processing.sound.*;
 
