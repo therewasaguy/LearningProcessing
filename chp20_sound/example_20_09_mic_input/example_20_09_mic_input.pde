@@ -12,11 +12,10 @@ Amplitude analyzer;
 void setup() {
   size(200, 200);
 
-  // Start listening to the microphone
   // Create an Audio input and grab the 1st channel
   input = new AudioIn(this, 0);
 
-  // start the Audio Input
+  // Start listening to the microphone
   // will be input.start() eventually
   input.play();
 
